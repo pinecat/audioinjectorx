@@ -12,6 +12,9 @@
 		985044C521665F1500CA9853 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 985044C321665F1500CA9853 /* MainMenu.xib */; };
 		985044D121665F1500CA9853 /* AudioInjectorXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985044D021665F1500CA9853 /* AudioInjectorXTests.swift */; };
 		985044DC21665F1600CA9853 /* AudioInjectorXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985044DB21665F1600CA9853 /* AudioInjectorXUITests.swift */; };
+		985044F4216672ED00CA9853 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 985044F3216672ED00CA9853 /* speaker.png */; };
+		985044F6216672F400CA9853 /* speaker-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 985044F5216672F400CA9853 /* speaker-18.png */; };
+		985044F8216672FA00CA9853 /* speaker-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 985044F7216672FA00CA9853 /* speaker-36.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		985044D721665F1600CA9853 /* AudioInjectorXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioInjectorXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		985044DB21665F1600CA9853 /* AudioInjectorXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInjectorXUITests.swift; sourceTree = "<group>"; };
 		985044DD21665F1600CA9853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985044F3216672ED00CA9853 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		985044F5216672F400CA9853 /* speaker-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-18.png"; sourceTree = "<group>"; };
+		985044F7216672FA00CA9853 /* speaker-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-36.png"; sourceTree = "<group>"; };
+		985044F9216674D600CA9853 /* 2hz.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2hz.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,10 @@
 		985044B321665F1500CA9853 = {
 			isa = PBXGroup;
 			children = (
+				985044F9216674D600CA9853 /* 2hz.aif */,
+				985044F5216672F400CA9853 /* speaker-18.png */,
+				985044F7216672FA00CA9853 /* speaker-36.png */,
+				985044F3216672ED00CA9853 /* speaker.png */,
 				985044BE21665F1500CA9853 /* AudioInjectorX */,
 				985044CF21665F1500CA9853 /* AudioInjectorXTests */,
 				985044DA21665F1600CA9853 /* AudioInjectorXUITests */,
@@ -226,7 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				985044C221665F1500CA9853 /* Assets.xcassets in Resources */,
+				985044F4216672ED00CA9853 /* speaker.png in Resources */,
+				985044F6216672F400CA9853 /* speaker-18.png in Resources */,
 				985044C521665F1500CA9853 /* MainMenu.xib in Resources */,
+				985044F8216672FA00CA9853 /* speaker-36.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
