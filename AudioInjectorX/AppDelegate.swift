@@ -53,7 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             if !fileManager.fileExists(atPath: filePath) {
                 let alert: NSAlert = NSAlert()
                 alert.messageText = "Cannot find audio file!"
-                alert.informativeText = "Download the audio file from:\nhttps://github.com/pinecat/audioinjectorx/2hz.aif\n\n" +
+                alert.informativeText = "Download the audio file from:\nhttps://github.com/pinecat/audioinjectorx/blob/master/2hz.aif\n\n" +
                 "Then place it in in your library directory:\n(~/Library/Sounds/2hz.aif)"
                 alert.runModal()
                 NSApplication.shared.terminate(self)
